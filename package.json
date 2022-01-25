@@ -1,0 +1,38 @@
+{
+  "name": "my-first-boilerplate",
+  "version": "1.0.0",
+  "description": "Learning to set up boilerplates",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server",
+    "dev": "nodemon dev:server --ignore data.json",
+    "lint": "eslint .",
+    "server": "node index",
+    "dev:server": "nodemon index",
+    "test": "jest --watchAll --verbose"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/k-nikhita/my-first-boilerplate.git"
+  },
+  "keywords": [
+    "boilerplate",
+    "npm",
+    "js",
+    "SERN"
+  ],
+  "author": "Nikhita Khanduri",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/k-nikhita/my-first-boilerplate/issues"
+  },
+  "homepage": "https://github.com/k-nikhita/my-first-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.3.4",
+    "jest": "^27.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.0.1",
+    "nodemon": "^2.0.14"
+}
